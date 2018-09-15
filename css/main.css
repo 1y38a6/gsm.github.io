@@ -1,0 +1,399 @@
+body{
+    background: linear-gradient(#636363, #6f6f6f);
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+header{
+    position: relative;
+    z-index: 2;
+    height: 90px;
+    background: #ca4e4c;
+    box-shadow: 0 0 30px #ca4e4c;
+}
+
+.d-flex{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.header__navigation_logo{
+    margin-top: 15px;
+    margin-left: 20%;
+}
+
+.header__navigation__phone{
+    width: 270px;
+    margin-top: 20px;
+    margin-right: 20%;
+}
+
+.header__navigation__buttons{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.header__navigation__buttons_one{
+    padding-left: 20px;
+}
+
+.header__navigation__phone_img{
+    padding-top: 13px;
+    padding-right: 10px;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.header__navigation__phone_number{
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.header__navigation__phone_viber_icon{
+    padding-top: 13px;
+    padding-left: 10px;
+}
+
+
+.header__navigation__phone_whapp_icon{
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+.body__discription{
+    background: url('../img/planet2.png');
+    background-size: cover 710px;
+    position: relative;
+    z-index: 1;
+    background-position-x:center;
+    width: 100%;
+    height: 610px !important;
+    background-repeat: no-repeat;
+}
+
+.body__discription_body{
+    margin-top: 0;
+    margin-left: 50%;
+}
+
+.body__discription_maintext{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    margin-top: 0;
+    padding-top: 75px;
+    margin-left: -260px;
+    text-shadow: 0 0 20px black;
+}
+
+.body__discription_maintext_red{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #d53e3b;
+}
+
+.body__discription_maintext_font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    font-weight: 100 !important;
+}
+
+.body__discription_othertext{
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    width: 75%;
+    margin-top: 0;
+    margin-left: 170px;
+    text-shadow: 0 0 20px black;
+}
+
+.body__discription_card_body{
+    margin-left: 40%;
+    padding-top: 30px;
+}
+
+.body__discription_card{
+    margin-left: -330px;
+}
+
+.body__discription_textbody{
+    margin-left: 42%;
+    margin-top: -360px;
+}
+
+.body__discription_button{
+    position: absolute;
+    left: 50%;
+    margin-left: -135px;
+    top: 565px;
+    width: 270px;
+    height: 70px;
+    background: #ca4e4c;
+}
+
+.body__discription_button_text{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+
+.body__how{
+    background: #2d2d2d;
+    height: 990px;
+    margin-top: -20px;
+}
+
+.body__how_planet_body{
+    margin-left: 40%;
+    padding-top: 30px;
+}
+
+.body__how_planet{
+    margin-top: 85px;
+    margin-left: -250px;
+}
+
+.body__how_feature_body{
+    margin-top: -290px;
+    margin-left: 50%;
+}
+
+.body__how_feature_main{
+    font-family: "Myriad Pro";
+    font-size: 36px;
+    font-weight: semibold;
+}
+
+.body__how_feature_reasons{
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    width: 482px;
+    font-weight: normal;
+}
+
+.body__how_buy_text{
+    position: absolute;
+    top: 1171px;
+    background: url('../img/howbuy.png');
+    background-size: 430px 80px;
+    padding-top: 15px;
+    width: 430px;
+    height: 65px;
+    left: 50%;
+    margin-left: -215px;
+    text-align: center;
+    font-family: "Myriad Pro";
+    font-size: 36px;
+    font-weight: semibold;
+}
+
+.body__how_circle{
+    background: #ca4e4c;
+    padding: 35px 35px;
+    border-radius: 90px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.body__how_dasherd_border{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 13px;
+    border-radius: 90px;
+    border-style: dashed;
+    width: 143px;
+}
+
+.body__how__circles{
+    margin-top: 230px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-around;
+}
+
+.body__how__upcirclestext{
+    text-align: center;
+}
+
+.body__how__downcirclestext{
+    text-align: center;
+    width: 310px;
+}
+
+.body__how__step{
+    width: 325px;
+    height: 350px;
+    justify-content: center;
+}
+
+.body__how__step_text{
+    text-align: center;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.gray{
+    color: #c1c1c1;
+}
+
+.body__buynow{
+    box-shadow: 0 0 30px #ca4e4c;
+    height: 385px;
+    background: #ca4e4c;
+}
+
+.body__buynow_card_body{
+    margin-left: 40%;
+    padding-top: 15px;
+}
+
+.body__buynow_card{
+    margin-left: -330px;
+}
+
+.body__buynow_textbody{
+    margin-left: 42%;
+    margin-top: -420px;
+}
+
+.body__buynow_maintext{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    width: 75%;
+    margin-left: 170px;
+    text-shadow: 0 0 20px black;
+}
+
+.body__buynow_textpadding{
+    padding-top: 50px;
+}
+
+
+.body__buynow_othertext{
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    width: 75%;
+    margin-top: 0;
+    margin-left: 170px;
+    text-shadow: 0 0 20px black;
+}
+
+.body__buynow_timer{
+    margin-left: 170px;
+    align-items: center;
+}
+
+.body__buynow_timer_circle{
+    background: #343434;
+    border-radius: 90px;
+    border-style: solid;
+    border-color: #efcaca;
+    border-width: 6px;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px 15px;
+}
+
+.body__buynow_timer_text{
+    text-align: center;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    height: 25px;
+    width: 30px;
+}
+
+.body__buynow_timer_dots{
+    font-family: "Myriad Pro";
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 11px;
+}
+
+.body__buynow_button{
+    margin-left: 170px;
+    margin-top: -15px;
+    width: 270px;
+    height: 70px;
+    background: #ffffff;
+}
+
+.body__buynow_buttonmargin{
+    margin-top: 55px;
+}
+
+.body__buynow_button_text{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ca4e4c;
+}
+
+.body__cubes{
+    position: absolute;
+    width: 100%;
+    top: 2580px;
+    z-index: -1;
+    height: 1799px;
+    background: url('../img/cubes.png');
+    background-repeat: repeat-x;
+}
+
+.body__bg{
+    position: absolute;
+    width: 100%;
+    top: 2050px;
+    z-index: -2;
+    height: 2330px;
+    background: #2d2d2d;
+}
+
+.body__instruction{
+    height: 1340px;
+}
+
+.body__questions{
+    height: 584px;
+}
+
+footer{
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 -5px 30px #ca4e4c;
+    height: 69px;
+    background: #474747;
+}
+
+.footer_we_in_soc{
+    align-self: auto;
+}
+
+.footer_we_in_soc_text{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.footer_phoneitem{
+    padding-right: 10px;
+}
