@@ -367,11 +367,116 @@ header{
 }
 
 .body__instruction{
-    height: 1340px;
+    height: 1100px;
+}
+
+.body__instruction_text{
+    position: absolute;
+    top: 2100px;
+    background: url('../img/instr.png');
+    background-size: 526px 78px;
+    padding-top: 15px;
+    width: 526px;
+    height: 65px;
+    left: 50%;
+    margin-left: -253px;
+    text-align: center;
+    font-family: "Myriad Pro";
+    font-size: 36px;
+    font-weight: semibold;
+}
+
+.body__instruction_img{
+    position: absolute;
+    top: 2250px;
+    left: 50%;
+    margin-left: -132px;
+}
+
+.body__instruction_slider1{
+    margin-left: 26%;
+    margin-top: 250px;
+}
+
+.shadow{
+    box-shadow: 0 0 30px #ce2926;
+}
+
+.body__instruction_discr1{
+    margin-top: -450px;
+    margin-left: 350px;
+}
+
+.body__instruction_slider2{
+    float: right;
+    margin-right: 26%;
+    margin-top: 150px;
+}
+
+.body__instruction_discr2{
+    margin-top: -450px;
+    margin-left: -450px;
 }
 
 .body__questions{
     height: 584px;
+    justify-content: center;
+}
+
+.body__questions_text{
+    position: absolute;
+    top: 3820px;
+    background: url('../img/howbuy.png');
+    background-size: 430px 80px;
+    padding-top: 15px;
+    width: 430px;
+    height: 65px;
+    left: 50%;
+    margin-left: -215px;
+    text-align: center;
+    font-family: "Myriad Pro";
+    font-size: 36px;
+    font-weight: semibold;
+}
+
+.body__questions_discr{
+    color: #d7d7d7;
+    padding-top: 180px;
+    margin: 0;
+    text-align: center;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    color: #a3a3a3;
+}
+
+.body__questions_input{
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 368px;
+    height: 49px;
+    text-align: center;
+    font-size: 18px;
+    border-color: #ca4e4c;
+    border-width: 2px;
+}
+
+.body__questions_submit{
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 271px;
+    height: 69px;
+    text-align: center;
+    font-size: 18px;
+    background: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 30px;
+    font-weight: bold;
+    color: #d53e3b;
 }
 
 footer{
@@ -397,3 +502,14 @@ footer{
 .footer_phoneitem{
     padding-right: 10px;
 }
+
+.w3-content{max-width:980px;}.w3-rest{overflow:hidden}
+.w3-display-container{position:relative}.w3-tooltip .w3-text{display:none}
+.w3-center{justify-content: center;}
+.w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
+.w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
+.w3-section,.w3-code{margin-top:16px!important;margin-bottom:16px!important}
+.w3-large{font-size:18px!important}
+.w3-badge,.w3-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.w3-badge{border-radius:50%; margin-left: 4px !important; margin-right:4px !important}
+.w3-transparent,.w3-hover-none:hover{background-color:#fff!important}
+.w3-white,.w3-hover-white:hover{color:#000!important;background-color:#ca4e4c!important}

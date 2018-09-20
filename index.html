@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Ultra GSM</title>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <style>
+        .mySlides {display:none}
+        .w3-left, .w3-right, .w3-badge {cursor:pointer}
+        .w3-badge {height:13px;width:13px;padding:0}
+    </style>
     <script src="js/main.js"></script>
 </head>
 <body>
@@ -119,7 +124,46 @@
     </section>
 
     <section class="body__instruction">
-
+        <p class="body__instruction_text">Инструкция по найтройке</p>
+        <img class="body__instruction_img" src="img/ANDROID_APPLE.png" width="264" height="29">
+        <div class="body__instruction_slider1">
+            <div class="w3-content w3-display-container" style="max-width:271px">
+                <img class="mySlides shadow mySlides1" src="img/Screenshot1.png" style="width:271px; height:462px; display: block;">
+                <img class="mySlides shadow mySlides1" src="img/Screenshot2.png" style="width:271px; height:462px;">
+                <img class="mySlides shadow mySlides1" src="img/Screenshot3.png" style="width:271px; height:462px;">
+                <div class="w3-center w3-container w3-section w3-large d-flex" style="width:100%">
+                  <span class="w3-badge demo1 w3-transparent w3-hover-white w3-white" onclick="currentDiv1(1)"></span>
+                  <span class="w3-badge demo1 w3-transparent w3-hover-white" onclick="currentDiv1(2)"></span>
+                  <span class="w3-badge demo1 w3-transparent w3-hover-white" onclick="currentDiv1(3)"></span>
+                </div>
+            </div>
+            <div class="body__instruction_discr1">
+                <p class="body__how_feature_main">Вариант 1</p>
+                <p class="body__how_feature_reasons">- В разделе меню Вашего девайса<span class="body__discription_maintext_red body__discription_maintext_font"> «Настройки» </span>выберите<br>пункт «Сотовая связь».</p>
+                <p class="body__how_feature_reasons">- Далее войти в подраздел<span class="body__discription_maintext_red body__discription_maintext_font"> «Параметры данных» </span>и<br>разрешите<span class="body__discription_maintext_red body__discription_maintext_font"> «Роуминг данных»</span>.</p>
+                <p class="body__how_feature_reasons">- После перейти в<span class="body__discription_maintext_red body__discription_maintext_font"> «Сотовая сеть передачи данных»</span>.<br>В этом разделе установить:</p>
+                <p class="body__how_feature_reasons">- Имя точки доступа,<span class="body__discription_maintext_red body__discription_maintext_font"> «APN» </span>– globaldata<br>Имя пользователя – нет</p>
+            </div>
+        </div>
+        <div class="body__instruction_slider2">
+            <div class="w3-content w3-display-container" style="max-width:271px">
+                <img class="mySlides shadow mySlides2" src="img/Screenshot4.png" style="width:271px; height:462px; display: block;">
+                <img class="mySlides shadow mySlides2" src="img/Screenshot5.png" style="width:271px; height:462px;">
+                <img class="mySlides shadow mySlides2" src="img/Screenshot6.png" style="width:271px; height:462px;">
+                <div class="w3-center w3-container w3-section w3-large d-flex" style="width:100%">
+                  <span class="w3-badge demo2 w3-transparent w3-hover-white w3-white" onclick="currentDiv2(1)"></span>
+                  <span class="w3-badge demo2 w3-transparent w3-hover-white" onclick="currentDiv2(2)"></span>
+                  <span class="w3-badge demo2 w3-transparent w3-hover-white" onclick="currentDiv2(3)"></span>
+                </div>
+            </div>
+            <div class="body__instruction_discr2">
+                <p class="body__how_feature_main">Вариант 2</p>
+                <p class="body__how_feature_reasons">- Необходимо подключиться к <span class="body__discription_maintext_red body__discription_maintext_font"> WIFI</span>, открыть браузер<br> <span class="body__discription_maintext_red body__discription_maintext_font"> «Сафари» </span> и перейти по ссылке <span class="body__discription_maintext_red body__discription_maintext_font"> m.apnchanger.org</span>.</p>
+                <p class="body__how_feature_reasons">- Далее, в ручном режиме выбрать раздел<br><span class="body__discription_maintext_red body__discription_maintext_font">«Manually»</span>, ввести в строку <span class="body__discription_maintext_red body__discription_maintext_font"> «APN NAME» </span> - globaldata.</p>
+                <p class="body__how_feature_reasons">- После ввода нажать кнопку<br><span class="body__discription_maintext_red body__discription_maintext_font"> «Установить - Install profile»</span>, если потребуется,<br>необходимо повторно нажать кнопку <span class="body__discription_maintext_red body__discription_maintext_font"> «Установить -<br>Install profile»</span>.</p>
+                <p class="body__how_feature_reasons"><span class="body__discription_maintext_red body__discription_maintext_font">ВАЖНО! </span> Чтобы всегда был разрешен <span class="body__discription_maintext_red body__discription_maintext_font"> «роуминг в сети»</span>.</p>
+            </div>
+        </div>
     </section>
 
     <section class="body__buynow">
@@ -136,7 +180,13 @@
     </section>
 
     <section class="body__questions">
-
+        <p class="body__questions_text">Остались вопросы?</p>
+        <p class="body__questions_discr">Собираетесь в заграничную поездку?<br>Хотите знать больше информации о <span class="body__discription_maintext_red">Мировой SIM-карте</span> для интернета?<br>Оставьте свои контактные данные, и наши специалисты свяжутся с Вами,<br> чтобы проконсультировать по всем вопросам!</p>
+        <form name="questions" method="POST" action="action.php">
+                <input type="text" size="40" placeholder="Введите ваше имя" class="body__questions_input">
+                <input type="tel" name="tel" pattern="2[0-9]{3}-[0-9]{3}" placeholder="Введите ваш номер телефона" class="body__questions_input"></p>
+                <input type="submit" value="Перезвонить" class="body__questions_submit">
+        </form>
     </section>
 
     <section class="body__bg"></section>
